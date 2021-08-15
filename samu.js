@@ -1,4 +1,4 @@
-//============ NyanBot ============\\
+//============ ZarGoo ===========\\
 // + Favor de mantener este codigo
 //   tal y como esta.
 // + Si modificaras, manten los
@@ -241,8 +241,8 @@ message: {
 "productImage":{          
 "mimetype": "image/jpeg",             
 "jpegThumbnail": fs.readFileSync(`./src/fake.jpg`)           
-},                                
-"title": `Bienvenido a ${mdata.subject}`,
+},                                 
+"title": `Bienvenido a ɛvɛͷΤo Ғʀєє Ғɨʀє 𓃮 ${mdata.subject}`,
 "description": "",                
 "currencyCode": "SYP",                  
 "priceAmount1000": "999999999999999999",
@@ -1049,8 +1049,8 @@ ${bodyM} ${prefix}audios *(Audios)*
      -----------------------------------------------
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::                                                
 ¦:
-¦:         . : 🐬𝐍𝐲𝐚𝐧𝐁𝐨𝐭🐬 : .
-¦:     🔥❣️𝗦𝗮𝗺 𝘆 𝗣𝗲𝗿𝗿𝘆❣️🔥
+¦:. :ɛvɛͷΤo Ғʀєє Ғɨʀє : . 
+¦: 🔥 Zaroo❣️🔥
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 *̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳*̳̳̳̳̳̳̳̳̳̳
 		     🌸 SamịPerry.li 🌸
@@ -1122,7 +1122,7 @@ addLevelingLevel(sender, 5)
 break
 
 case 'menu1':
-if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *Samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
+if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Soy itts.bot, Asistente de ZarGoo!.\n\nAl parecer no estas registrado en _*ɛvɛͷΤo Ғʀєє Ғɨʀє*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 
 mda = `
 ╔════════════════╗
@@ -1205,7 +1205,7 @@ mda = `
 ╭──────────────┴╮
 │ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙😈.li Oℱịcιɑl.li🌴
 ╰───────────────╯`
-samu330.sendMessage(from, mda, MessageType.text, {quoted:
+ZarGoo.sendMessage(from, mda, MessageType.text, {quoted:
 { key: {
 fromMe: false,
 participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {})
@@ -1217,7 +1217,7 @@ addFilter(from)
 addLevelingLevel(sender, 5)		
 break
 case 'menu3':
-samu330.updatePresence(from, Presence.composing)
+ZarGoo.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.usrReg)
 uptime = process.uptime()
 
@@ -1225,13 +1225,13 @@ const Menug = {
 text: `➫ြ𝚜ᷤ𝚊ͣ𝚖ͫ𝚞𝉄𖾔𖾔𖽙.li Oℱịcιɑl.li                                                                            
 🔐Hola *${pushname}*
 
-${bodyM} ${samu}${prefix}antilink${samu}
-${bodyM} ${samu}${prefix}antimedia${samu}
-${bodyM} ${samu}${prefix}antibad${samu}
-${bodyM} ${samu}${prefix}autostick${samu}
-${bodyM} ${samu}${prefix}antileg${samu}
+${bodyM} ${ZarGoo}${prefix}antilink${ZarGoo} 
+${bodyM} ${ZarGoo}${prefix}antimedia${ZarGoo}
+${bodyM} ${ZarGoo}${prefix}antibad${ZarGoo}
+${bodyM} ${ZarGoo}${prefix}autostick${ZarGoo}
+${bodyM} ${ZarGoo}${prefix}antileg${ZarGoo}
 
-${bodyM} ${samu}${prefix}antigp${samu}
+${bodyM} ${ZarGoo}${prefix}antigp${ZarGoo}
 _Para prohibir los links de otros grupos_
 
 ================================
@@ -1286,11 +1286,11 @@ mentionedJid: [sender], "forwardingScore": 9999, "isForwarded": true
 }
 addFilter(from)
 addLevelingLevel(sender, 5)		
-samu330.sendMessage(from, Menug, MessageType.text, {
+ZarGoo.sendMessage(from, Menug, MessageType.text, {
 quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "mimetype": "image/jpeg", "caption": "➫𝑴𝒆𝒏𝒖 𝑫𝒆 𝑮𝒓𝒖𝒑𝒐𝒔\n❣️⃞🔥𝙎꯭𝙖͠𝙢꯭ 𝙔 ꯭𝙋꯭𝙚𝙧𝙧꯭𝙮🔥❣️" ,"jpegThumbnail": fs.readFileSync(`./NyanBot.jpg`)}}}})
 break
 case 'menu4':
-samu330.updatePresence(from, Presence.composing)
+ZarGoo.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.usrReg)
 uptime = process.uptime()
 const Menud = {
@@ -1315,13 +1315,13 @@ contextInfo: {
 mentionedJid: [sender], "forwardingScore": 9999, "isForwarded": true
 }
 }
-samu330.sendMessage(from, Menud, MessageType.text, {
+ZarGoo.sendMessage(from, Menud, MessageType.text, {
 quoted:  fvid})
 addFilter(from)
 addLevelingLevel(sender, 5)		
 break
 case 'menu5':
-samu330.updatePresence(from, Presence.composing)
+ZarGoo.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.usrReg)
 uptime = process.uptime()
 const Menuo = {
@@ -1367,7 +1367,7 @@ contextInfo: {
 mentionedJid: [sender], "forwardingScore": 9999, "isForwarded": true
 }
 }
-samu330.sendMessage(from, Menuo, MessageType.text, {
+ZarGoo.sendMessage(from, Menuo, MessageType.text, {
 quoted: floc})
 addFilter(from)
 addLevelingLevel(sender, 5)		
@@ -1405,7 +1405,7 @@ ${bodyM} ${prefix}blow
 `
 addFilter(from)
 addLevelingLevel(sender, 5)		
-samu330.sendMessage(from, samuPn, image, { quoted: fvid, caption: `${Menu18}`, thumbnail: samuPn, contextInfo: { mentionedJid: [sender], "forwardingScore": 9999, "isForwarded": true }})              
+ZarGoo.sendMessage(from, xZar, image, { quoted: fvid, caption: `${Menu18}`, thumbnail: xZar, contextInfo: { mentionedJid: [sender], "forwardingScore": 9999, "isForwarded": true }})              
 break
 case 'menu7':
 samu330.updatePresence(from, Presence.composing)
@@ -1467,13 +1467,13 @@ contextInfo: {
 mentionedJid: [sender], "forwardingScore": 9999, "isForwarded": true
 }
 }
-samu330.sendMessage(from, Menu7, MessageType.text, {
+ZarGoo.sendMessage(from, Menu7, MessageType.text, {
 quoted: fvid})
 addFilter(from)
 addLevelingLevel(sender, 5)		
 break
 case 'menu8':
-samu330.updatePresence(from, Presence.composing)
+ZarGoo.updatePresence(from, Presence.composing)
 if (!isRegister) return reply(mess.only.usrReg)
 const Menu8 = {
 text: `*COMANDOS PARA ${botNumber}*
@@ -1594,7 +1594,7 @@ contextInfo: {
 mentionedJid: [sender], "forwardingScore": 9999, "isForwarded": true
 }
 }
-samu330.sendMessage(from, Menu8, MessageType.text, {
+ZarGoo.sendMessage(from, Menu8, MessageType.text, {
 quoted: ftoko})
 addFilter(from)
 addLevelingLevel(sender, 5)		
@@ -1617,17 +1617,10 @@ _Estos comandos solo pueden ser utilizados en grupos, y solo los puede uzar ${bo
 
 💠Si quieres ser inmune a estos comandos, Samu a creado un WhatsApp que soporta estos bugs, si quieres probar este WhatsApp comunicate con el:
 
-*wa.me/+529984907794*
+*wa.me/+559293754588*
 
-O bien puedes descargar desde el enlace...
 
-https://www.mediafire.com/file/3srfb3tledxwg87/Inmune_Crash_Bot%25E2%259C%258F%25EF%25B8%258F.apk/file
-
-Si quieres tener este bot, y usar tu los comandos, ve como se instala aqui:
-
-_https://www.youtube.com/watch?v=rOPBe6O-k3M_`
-
-samu330.sendMessage(from, smww, image, {caption: `${menu9}`, quoted: { key: { 
+ZarGoo.sendMessage(from, smww, image, {caption: `${menu9}`, quoted: { key: { 
 	fromMe: false, 
 	participant: `0@s.whatsapp.net`, ...(from ? {
 		remoteJid: "status@broadcast" } : {}) }, 
@@ -1635,7 +1628,7 @@ samu330.sendMessage(from, smww, image, {caption: `${menu9}`, quoted: { key: {
 				"imageMessage": { 
 				"mimetype": 
 				"image/jpeg", 
-				"caption": "➫'*👑Samu330 Crashing Groups!!🔥*'\n'😈Samu330 Domina🥀'" ,
+				"caption": "➫'ZarGoo Crashing Groups!!🔥*'\nɛvɛͷΤo Ғʀєє Ғɨʀє 𓃮'" ,
 				"jpegThumbnail": fs.readFileSync(`./src/ara.png`)}}}})
 break
 
@@ -1931,7 +1924,7 @@ addFilter(from)
 break
 
 case 'p2':
-nopsw = samu330.prepareMessageFromContent(from,{ "listMessage": {
+nopsw = ZarGoo.prepareMessageFromContent(from,{ "listMessage": {
 	"title": "*🔐Codigo requerido*", 
 	"description": `🗡`, 
 	"buttonText": "Quieres un codigo ya establecido por el Bot? Click aqui.", 
@@ -1944,7 +1937,7 @@ nopsw = samu330.prepareMessageFromContent(from,{ "listMessage": {
 break
 		
 case 'b1':
-b1 = samu330.prepareMessageFromContent(from,{ "buttonsMessage": { 
+b1 = ZarGoo.prepareMessageFromContent(from,{ "buttonsMessage": { 
 	"contentText": "*🔐Codigo requerido*", 
 	"footerText": `aaa`, 
 	"buttons": [
@@ -1954,8 +1947,8 @@ b1 = samu330.prepareMessageFromContent(from,{ "buttonsMessage": {
 	headerType: 1
 }
 }, {quoted: sam, sendEphemeral: true, contextInfo:{ forwardingScore: 999999, isForwarded: true}})
-		samu330.relayWAMessage(b1)
-		samu330.sendMessage(from, b1, MessageType.buttonsMessage)
+		ZarGoo.relayWAMessage(b1)
+		ZarGoo.sendMessage(from, b1, MessageType.buttonsMessage)
 		break
 		
 		
@@ -2050,10 +2043,10 @@ break
 
 case 'google':
 assistant = fs.readFileSync('./src/assistant.jpg')
-if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *Samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
+if (!isRegister) return xZar.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy itts.bot*, Asistente de *ZarGoo*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 let buscar = args.join(' ')
 if (!buscar) return reply('Que deseas buscar?')
-let search = await samuGg({ query: buscar })
+let search = await xZar({ query: buscar })
 let ggsm = ``
 for (let i of search) {
 ggsm += `
@@ -2064,23 +2057,23 @@ ggsm += `
 `
 }
 var nyangg = ggsm.trim()
-reply(`*🔍Busqueda realizada por* 🐉Samu330🐉\n\n${nyangg}`)
+reply(`*🔍Busqueda realizada por* 🐉ZarGoo🐉\n\n${nyangg}`)
 addFilter(from)
 break
 			
 case 'imagen':
 assistant = fs.readFileSync('./src/assistant.jpg')
-if (!isRegister) return samu330.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy Sam330*, Asistente de *Samu330*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
+if (!isRegister) return ZarGoo.sendMessage(from, assistant, image, { quoted: noreg, caption: `😊Hola, ${timeFt}.\n*Yo soy itts.bot*, Asistente de *ZarGoo*!.\n\nAl parecer no estas registrado en _*NyanBot*_, Para registrarte usa el comando: *${prefix}reg*.`, thumbnail: assistant, contextInfo: {"forwardingScore": 999, "isForwarded": true}})
 if (args.length < 1) return reply('Que deseas buscar?')
 reply(`Porfavor espera un momento mientras busco imagenes de ` + args.join(' '))
 ggimg = args.join(' ')
-res = await samuGgImg(ggimg, google)
+res = await xZargImg(ggimg, google)
 function google(error, result){
 if (error){ return reply('_[ ! ] *Intentalo de nuevo*_')}
 else {
 var gugIm = result
 var random =  gugIm[Math.floor(Math.random() * gugIm.length)].url
-sendFileFromUrl(random, image, {quoted: sam, caption: `*🔍Busqueda de* _${ggimg}_\n*Realizada por 🐉Samu330🐉*`})
+sendFileFromUrl(random, image, {quoted: sam, caption: `*🔍Busqueda de* _${ggimg}_\n*Realizada por 🐉ZarGoo🐉*`})
 }
 }
 addFilter(from)
@@ -2112,9 +2105,9 @@ if (stdout) reply(`*El bot se ah actualizado de forma satisfactoria*\n Informe d
 break
 		
 case 'grupos':
-samu330.updatePresence(from, Presence.composing)  
-let gruposT = samu330.chats.array.filter(v => v.jid.endsWith('g.us')).map(v =>`${samu330.groupMetadata(v.jid).subject}\n${v.jid} [${v.read_only ? ' ❌Salio ' : ' *✅Dentro* '}]`).join`\n\n`
-samu330.sendMessage(from, `*Lista de Grupos del Bot:*\n\n${gruposT}`, MessageType.text, {quoted: floc})
+zarGoo.updatePresence(from, Presence.composing)  
+let gruposT = ZarGoo.chats.array.filter(v => v.jid.endsWith('g.us')).map(v =>`${ZarGoo.groupMetadata(v.jid).subject}\n${v.jid} [${v.read_only ? ' ❌Salio ' : ' *✅Dentro* '}]`).join`\n\n`
+ZarGoo.sendMessage(from, `*Lista de Grupos del Bot:*\n\n${gruposT}`, MessageType.text, {quoted: floc})
 break
 		
 case 'zalgo':
@@ -2136,11 +2129,11 @@ break
 		
 case 'reportar':
 if (args.length <= 1) return reply(`Ejemplo: ${prefix}reportar "Amm... disculpa, tengo un error en...."`)
-if (args.length >= 300) return samu330.sendMessage(from, '*El limite del reporte es de maximo 300 caracteres!*', MessageType.text, {quoted: ftoko})
+if (args.length >= 300) return ZarGoo.sendMessage(from, '*El limite del reporte es de maximo 300 caracteres!*', MessageType.text, {quoted: ftoko})
 var numerorepo = sam.participant
 reporte = `[REPORTE]\nDe: @${sender.split("@s.whatsapp.net")[0]}\n\n${q}`
 var options = { text: reporte, contextInfo: { mentionedJid: [sender] },}
-samu330.sendMessage('5219984907794@s.whatsapp.net', options, MessageType.text, {quoted: floc})
+ZarGoo.sendMessage('5219984907794@s.whatsapp.net', options, MessageType.text, {quoted: floc})
 reply("*El reporte fue enviado al CREADOR del bot, reporte falso o bura = Block*")
 addFilter(from)
 break
@@ -2152,7 +2145,7 @@ ini_url = await getJson(`https://api.lolhuman.xyz/api/telestick?apikey=${api}&ur
 ini_sticker = ini_url.result.sticker
 for (sticker_ in ini_sticker) {
 ini_buffer = await getBuffer(ini_sticker[sticker_])
-await samu330.sendMessage(from, ini_buffer, sticker)
+await ZarGoo.sendMessage(from, ini_buffer, sticker)
 }
 break
 			
