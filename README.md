@@ -20,14 +20,14 @@
   </a>
 
 ```bash
-> git clone https://github.com/Samu330/NyanBot
+> git clone https://https://github.com/xZarGoo/itts.bot
 ```
 
 ## Inicia la Instalacion:
 
 ```bash
-> cd NyanBot
-> bash install.sh
+> cd itts.bot
+> bash install.sha
 ```
 
 ### Para correr el bot usa:
